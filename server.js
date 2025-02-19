@@ -19,12 +19,13 @@ app.use(express.json()); // parses incoming JSON request bodies.
 
 app.use(express.urlencoded({ extended: false })); // disabling extend the Body-Parser Middleware
 
-app.get('/', (req, res) => {
-    res.send(`
-        <h1>Welcome to Back-Lot API</h1>
-        <p>Manage your vehicles inventory efficiently.</p>
-    `);
-});
+
+// Importing Routes
+const homePageRouter = require ('./routers/HomePage.js'); // Importing the HomePage router.
+
+
+// using the routes
+app.use('/', homePageRouter); // App using the SEDAN router
 
 
 // Starting the server
