@@ -10,23 +10,17 @@ const vehicleSchema = new mongoose.Schema({
   make: String,
   model: String,
   trim: String,
+  color: String,
   mileage: Number,
+  fuelType: String,
   image_url: String,
   isAWD: Boolean,
   is4X4: Boolean,
   isElectrical: Boolean,
   isHybrid: Boolean,
-  inStock: Boolean,
-  buyer: {
-    firstName: { type: String, required: true },
-    lastName: { type: String, required: true },
-  },
-  seller: {
-    firstName: { type: String, required: true },
-    lastName: { type: String, required: true },
-  },
+  buyerName: String,
+  sellerName: String,
   buy_date: Date,
-  sell_date: Date,
 });
 
 const Vehicle = mongoose.model("Vehicle", vehicleSchema) 
