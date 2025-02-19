@@ -3,8 +3,8 @@
 const express = require('express'); // Requiring Express
 const app = express(); // Creating an instance of Express
 
-const mongoose = require('mongoose'); // Requireing mongoose
-require('dotenv').config(); // Requireing dotenv
+// const mongoose = require('mongoose'); // Requireing mongoose
+// require('dotenv').config(); // Requireing dotenv
 
 // method-override 
 const methodOverride = require('method-override');
