@@ -15,7 +15,7 @@ connectDB(); // running the connection to the MongoDB
 const methodOverride = require('method-override');
 app.use(methodOverride('_method'));
 
-
+app.use(express.json()); // parses incoming JSON request bodies.
 
 app.use(express.urlencoded({ extended: false })); // disabling extend the Body-Parser Middleware
 

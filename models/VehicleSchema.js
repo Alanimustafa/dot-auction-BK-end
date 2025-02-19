@@ -11,6 +11,7 @@ const vehicleSchema = new mongoose.Schema({
   model: String,
   trim: String,
   mileage: Number,
+  image_url: String,
   isAWD: Boolean,
   is4X4: Boolean,
   isElectrical: Boolean,
