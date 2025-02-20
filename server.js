@@ -5,6 +5,8 @@ const app = express(); // Creating an instance of Express
 const connectDB = require ("./config/db.js"); // importing the connectDB
 const dotenv = require ("dotenv");
 
+const cors = require('cors');
+
 // const mongoose = require('mongoose'); // Requireing mongoose
 // require('dotenv').config(); // Requireing dotenv
 
@@ -14,6 +16,8 @@ connectDB(); // running the connection to the MongoDB
 // method-override 
 const methodOverride = require('method-override');
 app.use(methodOverride('_method'));
+
+app.use(cors());
 
 app.use(express.json()); // parses incoming JSON request bodies.
 
