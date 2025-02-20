@@ -8,6 +8,7 @@ const vehicleSchema = new mongoose.Schema({
   model: String,
   trim: String,
   color: String,
+  price: Number,
   mileage: Number,
   fuelType: String,
   image_url: String,
