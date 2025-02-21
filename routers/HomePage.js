@@ -26,4 +26,18 @@ homePageRouter.route("/")
     }
 });
 
+// Route to get a specific vehicle by ID
+homePageRouter.route("/details/:id")
+  .get(async (req, res) => {
+    try {
+      const vehicle = await Vehicle.findById(req.params.id); // Fetch vehicle by ID
+      if (!vehicle) {
+        return res.status(404).json({ message: "Vehicle not found" });
+      }
+      res.status(200).json(vehicle);
+    } catch (error) {
+      res.status(500).json({ message: "Error retrieving data", error: error.message });
+    }
+  });
+
 module.exports = homePageRouter;
