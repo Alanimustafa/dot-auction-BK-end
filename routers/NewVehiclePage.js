@@ -4,7 +4,7 @@ const express = require("express");
 // Requiring Mongoose
 const mongoose = require("mongoose");
 
-// Create the Vehicle constant
+// Requiring the mongoose model
 const Vehicle = require("../models/VehicleSchema.js");
 
 // Create the NewVehiclePage Router
@@ -13,7 +13,7 @@ const newVehicleRouter = express.Router();
 // Route to handle adding a new vehicle
 newVehicleRouter.route("/").post(async (req, res) => {
     try {
-        const { condition, type, year, make, model, trim, color, price, mileage, fuel_type, image_url, isAWD, is4X4, isElectrical, isHybrid, buyerName, sellerName, buy_date} = req.body;
+        const { condition, type, year, make, model, trim, color, price, mileage, fuelType, image_url, isAWD, is4X4, isElectrical, isHybrid, buyerName, sellerName, buy_date} = req.body;
         
         // Create a new vehicle instance
         const newVehicle = new Vehicle({
@@ -26,7 +26,7 @@ newVehicleRouter.route("/").post(async (req, res) => {
             color,
             price,
             mileage,
-            fuel_type,
+            fuelType,
             image_url,
             isAWD,
             is4X4,
