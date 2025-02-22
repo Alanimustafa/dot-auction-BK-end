@@ -23,10 +23,13 @@ const homePageRouter = require ('./routers/HomePage.js'); // Importing the HomeP
 const newVehicleRouter = require ("./routers/NewVehiclePage.js") // Importing the newVehicle router
 const vehicleUpdateRouter = require ("./routers/UpdateVehicle.js") // Importing the Vehicle Update Router
 
+const deleteVehicleRouter = require ("./routers/DeleteVehicle.js") // Importing the Vehicle Delete Router
+
 // Using the routes
 app.use('/', homePageRouter); // Home Page router
 app.use('/newvehicle', newVehicleRouter ); // New Vehicle Router
 app.use('/update', vehicleUpdateRouter ); // Vehicle Update Router
+app.use('/delete', deleteVehicleRouter ); // Vehicle Update Router
 
 // Starting the server
 const PORT = process.env.PORT || 3000;
