@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const vehicleSchema = new mongoose.Schema({
   condition: String,
-  type: { type: String, required: true, default: "Vehicle" }, 
+  type: { type: String, required: true, default: "COMPACT" }, 
   year: { type: Number, required: true, default: 2025 }, 
   make: String,
   model: String,
