@@ -11,7 +11,7 @@ const vehicleSchema = new mongoose.Schema({
   price: Number,
   mileage: Number,
   fuelType: String,
-  image_url: String,
+  image_url: { type: String, default: "https://image.pngaaa.com/13/1887013-middle.png"},
   isAWD: Boolean,
   is4X4: Boolean,
   isElectrical: Boolean,
