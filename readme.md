@@ -35,7 +35,7 @@ Back Lot is an inventory management system designed to help users manage a vehic
 
 
 ## Wireframe Images
-* <img src="https://xd.adobe.com/view/3a655d4f-7202-4195-b016-4ceca2c647cf-6f36/">
+[AdobeXD](https://xd.adobe.com/view/3a655d4f-7202-4195-b016-4ceca2c647cf-6f36/grid)
 
 
 ## <a name="design"></a>Design
@@ -49,13 +49,16 @@ Back Lot is an inventory management system designed to help users manage a vehic
 * Proffesional Version Live bidding.
 * History Database. Deleted/Removed vehicle informatin will be stored in another database for documentation.
 
+
 ## <a name="deployment"></a>Deployed Link
 * Application Live link:
 [Render](https://backlot-inventory-management-system.onrender.com/)
 
+
 * You can view the repository:
 [Github.com](https://github.com/Alanimustafa/dot-auction-FR-end)
 * If unable to view please go live locally through VS Code
+
 
 ## <a name="author"></a>About The Author
 I build applications and mini projects tied to my various interests. I look for creative solutions to real world problems and think of technical ways to address them. While no application is ever perfect I find joy in the process and all my final products!
