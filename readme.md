@@ -26,7 +26,7 @@ Back Lot is an inventory management system designed to help users manage a vehic
 
 
 ## Features
-[Users are able to...]
+* User will be able to:
 ✅ View all vehicles in inventory  
 ✅ Categorized pages (Compact, Sedan, SUV, VAN, Truck)  
 ✅ Add, update, and delete vehicles  
@@ -37,8 +37,6 @@ Back Lot is an inventory management system designed to help users manage a vehic
 ## Wireframe Images
 * <img src="https://xd.adobe.com/view/3a655d4f-7202-4195-b016-4ceca2c647cf-6f36/">
 
-## Trello Planning
-* Link to trello or planning board - ex: https://trello.com/b/2jeHdFcV/project-1-connect-4
 
 ## <a name="design"></a>Design
 * Pages design has been developed using CSS 
@@ -52,6 +50,7 @@ Back Lot is an inventory management system designed to help users manage a vehic
 * History Database. Deleted/Removed vehicle informatin will be stored in another database for documentation.
 
 ## <a name="deployment"></a>Deployed Link
+* Application Live link:
 [Render](https://backlot-inventory-management-system.onrender.com/)
 
 * You can view the repository:
