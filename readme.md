@@ -14,6 +14,7 @@ Back Lot is an inventory management system designed to help users manage a vehic
 * [Design](#design)
 * [Project Next Steps](#nextsteps)
 * [Deployed App](#deployment)
+* [GitHub Repositories](#GitHub)
 * [About the Author](#author)
 
 ## <a name="technologiesused"></a>Technologies Used
@@ -55,9 +56,13 @@ User will be able to:
 [Render](https://backlot-inventory-management-system.onrender.com/)
 
 
-* You can view the repository:
+## <a name="GitHub"></a>GitHub Repositories
+* GitHub frontend application repository:
 [Github.com](https://github.com/Alanimustafa/dot-auction-FR-end)
-* If unable to view please go live locally through VS Code
+
+* GitHub backend application repository:
+[Github.com](https://github.com/Alanimustafa/dot-auction-BK-end)
+
 
 
 ## <a name="author"></a>About The Author
