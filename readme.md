@@ -1,61 +1,63 @@
-PER SCHOLAS - CAPSTONE
+# BACK LOT - Invetory Management System
 
-Project Name : Back Lot
-Project Description : Dealer or Auction Inventory Management Application - Backend server
+#### A full-stack web application for managing vehicle inventory
+<img src="./images/Back-Lot-01.PNG" alt="Home Page"/>
 
-Description: Back Lot inventory management system is a full-stack application. The backend applicaiton has been developed using ExpressJS and Mongoose. The fronend application has been developed using React.
+<img src="./images/Back-Lot-02.PNG" style="width:100vw; height:100vh" alt="Vehicle Details"/>
 
-Important: dotenv file and node package have to be install/Created before running the application.
+## Description
+Back Lot is an inventory management system designed to help users manage a vehicle database efficiently. It allows adding, updating, deleting, and categorizing vehicles into different types such as compact, sedan, SUV, van, and truck.
 
-GitHub Links:
-BackEnd : https://github.com/Alanimustafa/dot-auction-BK-end
-FrontEnd: https://github.com/Alanimustafa/dot-auction-FR-end
+## Table of Contents
+* [Technologies Used](#technologiesused)
+* [Features](#features)
+* [Design](#design)
+* [Project Next Steps](#nextsteps)
+* [Deployed App](#deployment)
+* [About the Author](#author)
 
-Wireframe Link:
-https://xd.adobe.com/view/3a655d4f-7202-4195-b016-4ceca2c647cf-6f36/
+## <a name="technologiesused"></a>Technologies Used
+* MongoDB
+* Express
+* React
+* Nodejs
+* JavaScript
+* CSS3
 
-Deployment Link:
-https://backlot-inventory-management-system.onrender.com/
 
-Dependencies:
+## Features
+[Users are able to...]
+✅ View all vehicles in inventory  
+✅ Categorized pages (Compact, Sedan, SUV, VAN, Truck)  
+✅ Add, update, and delete vehicles  
+✅ Responsive design with a hamburger menu  
+✅ REST API for managing inventory  
 
-1. Express.
-2. Nodemon.
-3. Mongoose.
-4. DotEnv.
 
-Database: This application is using MongoDB database which has been create for this project.
+## Wireframe Images
+* <img src="https://xd.adobe.com/view/3a655d4f-7202-4195-b016-4ceca2c647cf-6f36/">
 
-BackEnd Server:
-The server has been developed using ExpressJS and Mongoose for the database access.
+## Trello Planning
+* Link to trello or planning board - ex: https://trello.com/b/2jeHdFcV/project-1-connect-4
 
-BackEnd Routes: (CRUD)
-NewVehicle.JS --> Router access to CREATE new Vehicle in the MongoDB database.
-HomePage.JS --> Router access to READ Vehicle(s) information from the MongoDB database.
-UpdateVehicle.JS --> Router access to UPDATE Vehicle information in the MongoDB database.
-DeleteVehicle.JS --> Router access to DELETE Vehicle information in the MongoDB database.
+## <a name="design"></a>Design
+* Pages design has been developed using CSS 
 
-Database document schema:
-The document schema has been created in VehicleSchema.JS in the Models folder.
 
-FrontEnd Pages:
-The frontend application has been developped in React. The frontend pages:
+## <a name="nextsteps"></a>Project Next Steps
+#### List of Future Features
+* Application backend admistrator(s) will be able to create users accounts.
+* Detailed customer page allows users from email/message customers.
+* Proffesional Version Live bidding.
+* History Database. Deleted/Removed vehicle informatin will be stored in another database for documentation.
 
-- HomePage (Home.JSX) --> Displays All Vehicles in the inventory.
-- Sedans (Sedans.JSX) --> Displays Sedan Vehicles in the inventory.
-- Sedans (Compacts.JSX) --> Displays Compact Vehicles in the inventory.
-- Sedans (Suvs.JSX) --> Displays SUV Vehicles in the inventory.
-- Sedans (Vans.JSX) --> Displays VAN Vehicles in the inventory.
-- Sedans (Trucks.JSX) --> Displays TRUCKS in the inventory.
-- Sedans (Inventory.JSX) --> Displays the inventory management for each vehicle. User can manage each vehicle and create New Vehicle to be added to the inventory.
-- Sedans (Delete.JSX) --> Displays Removing Vehicles prompt for the selected vehicle.
+## <a name="deployment"></a>Deployed Link
+[Render](https://backlot-inventory-management-system.onrender.com/)
 
-Styles:
-All Pages are sharing one main Page.CSS file for styling. For the components, each component has a style sheet has been stored in Component/Styles folder.
+* You can view the repository:
+[Github.com](https://github.com/Alanimustafa/dot-auction-FR-end)
+* If unable to view please go live locally through VS Code
 
-Future features:
-
-- The backend server will have a user account genration model. This model will allow the admins from creating users accounts with passwords.
-- Users (employees) in the front end application will be able to Add/Remove/Update vehicles in the database.
-- Inventory History. This feature will remove any deleted vehicles to another database which will be designed for saving all removed vehicles from the main databas.
-- Comments on each vehicle. This feature will allow the users to read any notes on the selected vehicle.
+## <a name="author"></a>About The Author
+I build applications and mini projects tied to my various interests. I look for creative solutions to real world problems and think of technical ways to address them. While no application is ever perfect I find joy in the process and all my final products!
+[Developer LinkedIn](www.linkedin.com/in/mustafa-m-alani)
