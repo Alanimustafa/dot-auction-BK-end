@@ -31,7 +31,6 @@ User will be able to:
 * ✅ View all vehicles in inventory  
 * ✅ Categorized pages (Compact, Sedan, SUV, VAN, Truck)  
 * ✅ Add, update, and delete vehicles  
-* ✅ Responsive design with a hamburger menu  
 * ✅ REST API for managing inventory  
 
 
