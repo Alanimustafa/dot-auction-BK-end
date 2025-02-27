@@ -26,12 +26,12 @@ Back Lot is an inventory management system designed to help users manage a vehic
 
 
 ## Features
-* User will be able to:
-✅ View all vehicles in inventory  
-✅ Categorized pages (Compact, Sedan, SUV, VAN, Truck)  
-✅ Add, update, and delete vehicles  
-✅ Responsive design with a hamburger menu  
-✅ REST API for managing inventory  
+User will be able to:
+* ✅ View all vehicles in inventory  
+* ✅ Categorized pages (Compact, Sedan, SUV, VAN, Truck)  
+* ✅ Add, update, and delete vehicles  
+* ✅ Responsive design with a hamburger menu  
+* ✅ REST API for managing inventory  
 
 
 ## Wireframe Images
